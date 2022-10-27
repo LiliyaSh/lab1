@@ -1,14 +1,12 @@
 package classes;
 
 public class Order {
-    private int id;
-    private String date;
-    private int deliveryDuration;
-    private int price;
+    public int id;
+    public String date;
+    public int deliveryDuration;
+    public int price;
 
-    public Order(){
-
-    }
+    public Order(){}
 
     public int getId() {
         return id;
